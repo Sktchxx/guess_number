@@ -5,8 +5,8 @@ while True:
     guess = int(input('Ввведите число: '))
     if guess < s:
         print('Ваше число меньше того, что загадано')
-    if guess > s:
+    elif guess > s:
         print('Ваше число больше того, что загадано')
-    if  guess == s:
+    elif  guess == s:
         break
 print('отличная интуиция! Вы угадали число :)')
